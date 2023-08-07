@@ -20,8 +20,8 @@ geokrety_svg_to_png_image:
   git_url: https://github.com/geokrety/geokrety-svg-to-png.git
   docker_tag: 1.0.1
 geokrety_bootstrap_email_image:
-  git_url: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY
-  docker_tag: $GITHUB_REF_NAME
+  git_url: /{{ vars.GITHUB_REPOSITORY }}
+  docker_tag: ''
 geokrety_osm_static_maps_image:
   git_url: https://github.com/geokrety/osm-static-maps.git
   docker_tag: 3.10.4-geokrety.4
